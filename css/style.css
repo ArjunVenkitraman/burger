@@ -1,3 +1,7 @@
+.banner-container{
+    background: url("../images/Rectangle.png");
+
+}
 .heading {
     color: #432009;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -32,4 +36,13 @@
 .slogan-sub{
     font-size: 60px;
     font-weight: bolder;
+}
+.burgerimage{
+    position: absolute;
+}
+.glow{
+    position: absolute;
+}
+.drinks{
+    position: absolute;
 }
