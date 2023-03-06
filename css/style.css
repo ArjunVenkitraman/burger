@@ -74,33 +74,45 @@
     top: 274px;
     left: 687px;
 }
-.try-now{
+.try-container{
+    padding-top: 25px;
+}
+.try-it-today{
     padding-top: 30px;
     padding-left: 30px;
-    font-size: 20px;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Bebas Neue";
 }
 .special-text{
     padding-left: 30px;
-    font-size: 30px;
-    font-size: 25px;
+    font-size: 40px;
 line-height: 38px;
 text-transform: uppercase;
 color: #ffffff;
-font-weight: 700;
 font-family: "Bebas Neue";
 }
 .row-2-burger{
     height: 432px;
 }
 .always{
-    margin-top: 10px;
+    width: 218px;
+height: 48px;
+padding-top: 10px;
+font-size: 25px;
+line-height: 38px;
+text-transform: uppercase;
+color: #3d2514;
+font-family: "Bebas Neue";
 }
 .choose{
+    padding-top: 25px;
     font-size: 50px;
     line-height: 38px;
     text-transform: uppercase;
     color: #3d2514;
-    font-weight: 1000px;
     font-family: "Alfa Slab One";
 }
 .choose-text{
@@ -111,20 +123,23 @@ line-height: 29px;
 color: #3d2514;
 font-weight: 400;
 font-family: "Montserrat";
+text-align: center;
 }
-
 .cardimg{
     height: 300px;
     width: 345px;
 }
-.upcomingburger{
-    width:655px;
-    height:440px;
-}
 .upcoming{
-    box-shadow: 10px 20px 25px rgba(0, 0, 0,.4);
+    width: 1294px;
+height: 492px;
+filter: drop-shadow(18.656px 24.758px 21.5px rgba(0,0,0,0.17));
+background-color: #ffffff;
 }
-.upcoming-text{
+.upcomingburger{
+    width:560px;
+    height:405px;
+}
+.upcoming-events{
     font-size: 42px;
 line-height: 46px;
 text-transform: uppercase;
@@ -132,12 +147,51 @@ color: #3d2514;
 font-weight: 400;
 font-family: "Alfa Slab One";
 }
+.upcoming-text{
+    margin-top: 36px;
+    width: 531px;
+height: 173px;
+font-size: 21px;
+line-height: 33px;
+color: #3d3d3d;
+font-weight: 400;
+font-family: "Montserrat";
+}
 .bun{
-    top: -77px;
-    left: -82px;
+    top: -70px;
+    left: -130px;
 }
 .bottle{
-    left:166px;
+    top: 155px;
+    left:100px;
+}
+.reservation-burger{
+    left: 1200px;
+    top: 170px;
+}
+.reservation-form{
+    padding-right: 25px;
+}
+.form{
+    width:870px;
+}
+.reservation-text{
+    font-size: 29px;
+letter-spacing: 2px;
+line-height: 46px;
+text-transform: uppercase;
+color: #3d2514;
+font-weight: 700;
+font-family: "Bebas Neue";
+}
+.reservation-book{
+    font-size: 50px;
+    letter-spacing: 3px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
 }
 .footer-logo{
     left: 35px;
