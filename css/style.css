@@ -1,215 +1,404 @@
- .banner-container{
-    background: url("../assets/Rectangle.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 827px;
+.body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
 }
-.numdelivery {
-    color: #432009;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+.banner-container {
+     background: url("../assets/Rectangle.png");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 827px;
+ }
+ .numdelivery {
+     font-size: 17px;
+     line-height: 71px;
+     color: #3d2514;
+     font-weight: 700;
+     font-family: "Montserrat";
+     text-align: right;
+ }
+ .delivary{
+      padding-left: 350px;
+ }
 
-.navbar .nav-item .nav-link {
-    color: #432009;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: x-large;
-    margin-top: 5px;
-    margin-right: 10px;
+ .navbar .nav-item .nav-link {
+     font-size: 21px;
+     letter-spacing: 4px;
+     text-transform: uppercase;
+     color: #3d2514;
+     font-weight: 700;
+     font-family: "Bebas Neue";
+     margin-top: 5px;
+     margin-right: 10px;
+     margin-left: 20px;
+ }
+
+ .week {
+     position: absolute;
+     top: 285px;
+     font-family: 'Alfa Slab One';
+ }
+
+ .dotted {
+     border: 3px dashed #432009;
+     font-size: 24px;
+line-height: 33px;
+text-transform: uppercase;
+color: #3d2514;
+font-weight: 400;
+font-family: "Bebas Neue";
+padding-top: 4px;
+ }
+
+ .slogan-main {
+     font-size: 114px;
+     line-height: 62px;
+     text-transform: uppercase;
+     color: #3d2514;
+     /* font-weight: 1000; */
+     /* font-family: "revert";   */
+     filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+     margin-top: 53px;
+     /*font-weight: bolder;*/
+     font-family: 'Alfa Slab One';
+ }
+
+ .slogan-sub {
+     font-size: 60px;
+     line-height: 62px;
+     text-transform: uppercase;
+     color: #3d2514;
+     font-weight: bolder;
+     /* font-family: "Alfa Slab One";    */
+     filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+     margin-top: 25px;
+
+ }
+
+ .burgerimage {
+     position: absolute;
+     top: 335px;
+     left: 927px;
+     /* background-image: radial-gradient(rgb(29,28,28),rgb(213,213,239),rgba(147,142,142,0.1)); */
+ }
+
+ .glow {
+     top: 4px;
+     left: 814px;
+     position: absolute;
+     height: 696px;
+ }
+.burger-shadow{
+    position: absolute;
+    left: 900px;
+    top:700px;
+}
+.drink-shadow{
+    position: absolute;
+    left: 1080px;
+    top: 680px;
+}
+ .drinks {
+     position: absolute;
+     left: 1237px;
+     top: 208px;
+ }
+
+ .fingerchips {
+     position: absolute;
+     top: 274px;
+     left: 787px;
+ }
+
+ .red-ellipse {
+     position: absolute;
+     top: 570px;
+     left: 800px
+ }
+
+ .dotted-ellipse {
+     position: absolute;
+     top: 582px;
+     left: 811px;
+ }
+
+ .price {
+     position: absolute;
+     top: 610px;
+     left: 850px;
+ }
+
+ .try-container {
+     padding-top: 25px;
+ }
+
+ .try-it-today {
+     padding-top: 30px;
+     padding-left: 30px;
+     font-size: 25px;
+     line-height: 38px;
+     text-transform: uppercase;
+     color: #ffffff;
+     font-family: "Bebas Neue";
+ }
+
+ .special-text {
+     padding-left: 30px;
+     font-size: 40px;
+     line-height: 38px;
+     text-transform: uppercase;
+     color: #ffffff;
+     font-family: "Bebas Neue";
+ }
+
+ .row-2-burger {
+     height: 432px;
+ }
+
+ .always {
+     width: 218px;
+     height: 48px;
+     padding-top: 10px;
+     font-size: 25px;
+     line-height: 38px;
+     text-transform: uppercase;
+     color: #3d2514;
+     font-family: "Bebas Neue";
+ }
+
+ .choose {
+     padding-top: 25px;
+     font-size: 50px;
+     line-height: 38px;
+     text-transform: uppercase;
+     color: #3d2514;
+     font-family: "Alfa Slab One";
+ }
+
+ .choose-text {
+     width: 1082px;
+     height: 56px;
+     font-size: 17px;
+     line-height: 29px;
+     color: #3d2514;
+     font-weight: 400;
+     font-family: "Montserrat";
+     text-align: center;
+ }
+ .card-text h5{
+    margin-top: 35px;
+ }
+ .card-title{
+    font-size: 38px;
+line-height: 38px;
+text-transform: uppercase;
+color: #3d2514;
+font-family: "Bebas Neue";
+ }
+ .card-text{
+    width: 367px;
+    font-size: 17px;
+line-height: 21px;
+color: #3d2514;
+font-family: "Montserrat";
+text-align: center;
+ }
+ .btn{
+    padding-top: 8px;
     margin-left: 10px;
-}
-.week{
-    position: absolute;
-    top: 285px;
-    font-family: 'Alfa Slab One';
-}
-
-.dotted {
-    border: 3px dashed #432009;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
-}
-
-.slogan-main {
-    font-size: 114px;
-    line-height: 62px;
-    text-transform: uppercase;
-    color: #3d2514;
-    /* font-weight: 1000; */
-    /* font-family: "revert";   */
-    filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
-    margin-top: 53px;
-    /*font-weight: bolder;*/
-    font-family: 'Alfa Slab One';
-}
-.slogan-sub{
-    font-size: 60px;
-    line-height: 62px;
-    text-transform: uppercase;
-    color: #3d2514;
-    font-weight: bolder;
-    /* font-family: "Alfa Slab One";    */
-    filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
-    margin-top: 25px;
-
-}
-.burgerimage{
-    position: absolute;
-    top: 335px;
-    left: 827px;
-}
-.glow{
-    top: 4px;
-    left: 714px;
-    position: absolute;
-    height: 696px;
-}
-.drinks{
-    position: absolute;
-    left: 1137px;
-    top: 208px;
-}
-.fingerchips{
-    position: absolute;
-    top: 274px;
-    left: 687px;
-}
-.try-container{
-    padding-top: 25px;
-}
-.try-it-today{
-    padding-top: 30px;
-    padding-left: 30px;
-    font-size: 25px;
-    line-height: 38px;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-family: "Bebas Neue";
-}
-.special-text{
-    padding-left: 30px;
-    font-size: 40px;
+    width: 195px;
+height: 57px;
+background-color: #bf2222;
+    font-size: 15px;
 line-height: 38px;
 text-transform: uppercase;
 color: #ffffff;
-font-family: "Bebas Neue";
+font-family: "Alfa Slab One";
+ }
+
+ .cardimg {
+     height: 300px;
+     width: 345px;
+ }
+.card-1-shadow{
+    position: absolute;
+    top: 300px;
+    left: 13px;
 }
-.row-2-burger{
-    height: 432px;
+.card-2-shadow{
+    position: absolute;
+    top: 305px;
+    left: 17px;
 }
-.always{
-    width: 218px;
-height: 48px;
-padding-top: 10px;
-font-size: 25px;
-line-height: 38px;
-text-transform: uppercase;
-color: #3d2514;
-font-family: "Bebas Neue";
+.card-3-shadow{
+    position: absolute;
+    top: 300px;
+    left: 35px;
 }
-.choose{
-    padding-top: 25px;
-    font-size: 50px;
-    line-height: 38px;
-    text-transform: uppercase;
-    color: #3d2514;
-    font-family: "Alfa Slab One";
-}
-.choose-text{
-    width: 1082px;
-height: 56px;
-font-size: 17px;
-line-height: 29px;
-color: #3d2514;
-font-weight: 400;
-font-family: "Montserrat";
-text-align: center;
-}
-.cardimg{
-    height: 300px;
-    width: 345px;
-}
-.upcoming{
-    width: 1294px;
-height: 492px;
-filter: drop-shadow(18.656px 24.758px 21.5px rgba(0,0,0,0.17));
-background-color: #ffffff;
-}
-.upcomingburger{
-    width:560px;
-    height:405px;
-}
-.upcoming-events{
-    font-size: 42px;
+ .upcoming {
+     width: 1294px;
+     height: 492px;
+     filter: drop-shadow(18.656px 24.758px 21.5px rgba(0, 0, 0, 0.17));
+     background-color: #ffffff;
+ }
+
+ .upcomingburger {
+     width: 560px;
+     height: 405px;
+ }
+
+ .upcoming-events {
+     font-size: 42px;
+     line-height: 46px;
+     text-transform: uppercase;
+     color: #3d2514;
+     font-weight: 400;
+     font-family: "Alfa Slab One";
+ }
+
+ .upcoming-text {
+     margin-top: 36px;
+     width: 531px;
+     height: 173px;
+     font-size: 21px;
+     line-height: 33px;
+     color: #3d3d3d;
+     font-weight: 400;
+     font-family: "Montserrat";
+ }
+ .yellow-Ellipse{
+    position: absolute;
+    top: 415px;
+ }
+ .white-Ellipse-1{
+    position: absolute;
+    top: 415px;
+    left: 72px;
+ }
+ .white-Ellipse-2{
+    position: absolute;
+    top: 415px;
+    left: 95px;
+ }
+
+ .bun {
+     top: -70px;
+     left: -85px;
+ }
+
+ .bottle {
+     top: 155px;
+     left: 100px;
+ }
+
+ .reservation-burger {
+     left: 1200px;
+     top: 170px;
+ }
+.btn .ordernow{
+    font-size: 21px;
 line-height: 46px;
 text-transform: uppercase;
-color: #3d2514;
-font-weight: 400;
+color: #ffffff;
 font-family: "Alfa Slab One";
 }
-.upcoming-text{
-    margin-top: 36px;
-    width: 531px;
-height: 173px;
-font-size: 21px;
-line-height: 33px;
-color: #3d3d3d;
-font-weight: 400;
-font-family: "Montserrat";
-}
-.bun{
-    top: -70px;
-    left: -130px;
-}
-.bottle{
-    top: 155px;
-    left:100px;
-}
-.reservation-burger{
-    left: 1200px;
-    top: 170px;
-}
-.reservation-form{
-    padding-right: 25px;
-}
-.form{
-    width:870px;
-}
-.reservation-text{
-    font-size: 29px;
-letter-spacing: 2px;
-line-height: 46px;
-text-transform: uppercase;
-color: #3d2514;
-font-weight: 700;
-font-family: "Bebas Neue";
-}
-.reservation-book{
-    font-size: 50px;
-    letter-spacing: 3px;
-    line-height: 46px;
-    text-transform: uppercase;
-    color: #3d2514;
-    font-weight: 400;
-    font-family: "Alfa Slab One";
-}
-.footer-logo{
-    left: 35px;
-    top: 83px;
-}
-.footer-text{
-    top: 112px;
-    color: white;
-    width:  580px;
-    font-family: 'Montserrat';
-    font-size: 17px;
-}
-.upcoming-discover{
-    font-size: 29px;
-letter-spacing: 2px;
-line-height: 46px;
-text-transform: uppercase;
-color: #3d3d3d;
-font-weight: 700;
-font-family: "Bebas Neue";
-}
+ .reservation-form {
+     padding-right: 25px;
+ }
+
+ .form {
+     width: 870px;
+ }
+
+ .reservation-text {
+     font-size: 29px;
+     letter-spacing: 2px;
+     line-height: 46px;
+     text-transform: uppercase;
+     color: #3d2514;
+     font-weight: 700;
+     font-family: "Bebas Neue";
+ }
+
+ .reservation-book {
+     font-size: 50px;
+     letter-spacing: 3px;
+     line-height: 46px;
+     text-transform: uppercase;
+     color: #3d2514;
+     font-weight: 400;
+     font-family: "Alfa Slab One";
+ }
+
+ .footer {
+     margin-top: 120px;
+     left: 75px;
+ }
+
+ .footer-location {
+     left: 905px;
+     top: 235px;
+     color: white;
+     width: 313px;
+ }
+
+ .footer-location span {
+     font-size: 21px;
+     line-height: 38px;
+     color: #ffffff;
+     font-family: "Bebas Neue";
+ }
+
+ .footer-email {
+     left: 905px;
+     top: 285px;
+     color: white;
+     width: 300px;
+ }
+
+ .footer-email span {
+     font-size: 21px;
+     line-height: 38px;
+     color: #ffffff;
+     font-family: "Bebas Neue";
+ }
+
+ .media-pad {
+     padding-left: 10px;
+ }
+
+ .copywrite {
+     top: 260px;
+ }
+
+ .footer-location-pad {
+     padding-right: 20px;
+ }
+
+ .footer-logo {
+     left: 35px;
+     top: 83px;
+ }
+
+ .footer-text {
+     top: 150px;
+     color: white;
+     width: 580px;
+     font-family: 'Montserrat';
+     font-size: 17px;
+ }
+ .footer-socialmedia {
+     top: 475px;
+     left: 1130px;
+     width: 195px;
+ }
+ .upcoming-discover {
+     font-size: 29px;
+     letter-spacing: 2px;
+     line-height: 46px;
+     text-transform: uppercase;
+     color: #3d3d3d;
+     font-weight: 700;
+     font-family: "Bebas Neue";
+ }
