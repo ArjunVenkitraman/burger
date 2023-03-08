@@ -84,10 +84,12 @@ padding-top: 4px;
  }
 
  .glow {
-     top: 4px;
-     left: 814px;
-     position: absolute;
-     height: 696px;
+    width: 500px;
+    top: 12px;
+    left: 885px;
+    position: absolute;
+    height: 696px;
+    opacity: 0.9;
  }
 .burger-shadow{
     position: absolute;
