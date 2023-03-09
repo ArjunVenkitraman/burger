@@ -381,6 +381,7 @@ font-family: "Alfa Slab One";
  .footer-logo {
      left: 35px;
      top: 83px;
+     width: 500px;
  }
 
  .footer-text {
