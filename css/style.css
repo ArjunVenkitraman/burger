@@ -1,4 +1,4 @@
-.body{
+body{
     min-height: 100vh;
     width: 100vw;
     overflow-x: hidden;
@@ -20,6 +20,16 @@
  }
  .delivary{
       padding-left: 350px;
+ }
+ .head-burger-house{
+    position: absolute;
+    font-size: 40px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-family: "Bebas Neue";
+    margin-left: 15px;
+    margin-top: 10px;
  }
 
  .navbar .nav-item .nav-link {
@@ -85,10 +95,10 @@ padding-top: 4px;
 
  .glow {
     width: 500px;
-    top: 12px;
+    top: 180px;
     left: 885px;
     position: absolute;
-    height: 696px;
+    height: 300px;
     opacity: 0.9;
  }
 .burger-shadow{
@@ -295,6 +305,7 @@ font-family: "Alfa Slab One";
  }
 
  .reservation-burger {
+    filter: drop-shadow(18.656px 24.758px 21.5px rgba(0, 0, 0, 0.17));
      left: 1200px;
      top: 170px;
  }
@@ -369,8 +380,15 @@ font-family: "Alfa Slab One";
  .media-pad {
      padding-left: 10px;
  }
+ .fontawesome{
+color: #ffffff;
+border:none;
+border-radius: 100px;
+ }
 
  .copywrite {
+    font-size: small;
+    font-family: "Bebas Neue";
      top: 260px;
  }
 
@@ -383,7 +401,17 @@ font-family: "Alfa Slab One";
      top: 83px;
      width: 500px;
  }
-
+ .footer-burger-house{
+    position: absolute;
+    color: white;
+    font-size: 55px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Bebas Neue";
+    margin-left: 30px;
+    margin-top: 30px;
+ }
  .footer-text {
      top: 150px;
      color: white;
