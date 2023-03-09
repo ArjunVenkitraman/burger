@@ -401,9 +401,7 @@ font-family: "Alfa Slab One";
      border-radius: 100px;
 
  }
- #insta :hover{
-    background-color: white;
- }
+
  .fontawesome{
 color: #ffffff;
 border:none;
@@ -411,9 +409,9 @@ border-radius: 100px;
  }
 
  .copywrite {
-    font-size: small;
+    font-size: large;
     font-family: "Bebas Neue";
-     top: 260px;
+     top: 250px;
  }
 
  .footer-location-pad {
@@ -459,4 +457,7 @@ border-radius: 100px;
  }
  a{
     color: #ffffff;
+ }
+ a :hover{
+    color: #c5c1c1;
  }
